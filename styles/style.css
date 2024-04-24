@@ -9,3 +9,16 @@ a {
     color: rgb(196, 67, 67);
 }
 
+.recipe-list li {
+    margin: 2.5vh 0vh;
+}
+
+.exit-container {
+    margin: 10vh 0vh 0vh 0vh;
+}
+
+.exit {
+    font-size: 30px;
+    font-weight: bold;
+}
+
