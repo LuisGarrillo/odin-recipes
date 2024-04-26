@@ -5,12 +5,58 @@ body {
     color:rgb(50, 50, 50);
 }
 
+
+
 a {
     color: rgb(196, 67, 67);
+    text-decoration: none;
+}
+
+h1, h2, h3, p {
+    text-align: center;
+}
+
+h1, h2, h3 {
+    color: #63360c;
+}
+
+h1 {
+    padding: 7.5px;
+    border-bottom: 5px solid #805926;
+    width:fit-content;
+    margin: 15px auto;
+}
+
+.recipe-container {
+    width: 600px;
+    background-color: #fff;
+    padding: 10px;
+    border-radius: 10px;
+    margin: 0 auto;
+}
+
+.recipe-list {
+    padding-right: 40px;
 }
 
 .recipe-list li {
     margin: 2.5vh 0vh;
+    padding: 5px;
+    border-bottom: 2px solid #bdab93;
+    color:#805926
+}
+
+
+.recipe-cover {
+    display: block;
+    border: 20px solid #805926;
+    margin: 0 auto;
+    
+}
+
+.reference-link {
+    display: block;
+    text-align: center;
 }
 
 .exit-container {
